@@ -1,0 +1,338 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Aspects (1.4.1)
+  - AuroraIMUI (0.14.0)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - CryptoSwift (1.0.0)
+  - DynamicColor (4.1.0)
+  - EFQRCode (5.0.0):
+    - swift_qrcodejs (~> 1.1.1)
+  - ESTabBarController-swift (2.7)
+  - Eureka (5.0.0)
+  - FSCalendar (2.8.0)
+  - GT3Captcha-iOS (0.12.6)
+  - IQKeyboardManagerSwift (6.4.1)
+  - JCore (2.1.4-noidfa)
+  - JKCategories (1.8.1):
+    - JKCategories/CoreData (= 1.8.1)
+    - JKCategories/CoreLocation (= 1.8.1)
+    - JKCategories/Foundation (= 1.8.1)
+    - JKCategories/MapKit (= 1.8.1)
+    - JKCategories/QuartzCore (= 1.8.1)
+    - JKCategories/UIKit (= 1.8.1)
+  - JKCategories/CoreData (1.8.1):
+    - JKCategories/CoreData/NSFetchRequest (= 1.8.1)
+    - JKCategories/CoreData/NSManagedObject (= 1.8.1)
+    - JKCategories/CoreData/NSManagedObjectContext (= 1.8.1)
+  - JKCategories/CoreData/NSFetchRequest (1.8.1)
+  - JKCategories/CoreData/NSManagedObject (1.8.1):
+    - JKCategories/CoreData/NSManagedObjectContext
+  - JKCategories/CoreData/NSManagedObjectContext (1.8.1):
+    - JKCategories/CoreData/NSFetchRequest
+  - JKCategories/CoreLocation (1.8.1):
+    - JKCategories/CoreLocation/CLLocation (= 1.8.1)
+  - JKCategories/CoreLocation/CLLocation (1.8.1)
+  - JKCategories/Foundation (1.8.1):
+    - JKCategories/Foundation/NSArray (= 1.8.1)
+    - JKCategories/Foundation/NSBundle (= 1.8.1)
+    - JKCategories/Foundation/NSData (= 1.8.1)
+    - JKCategories/Foundation/NSDate (= 1.8.1)
+    - JKCategories/Foundation/NSDateFormatter (= 1.8.1)
+    - JKCategories/Foundation/NSDictionary (= 1.8.1)
+    - JKCategories/Foundation/NSException (= 1.8.1)
+    - JKCategories/Foundation/NSFileHandle (= 1.8.1)
+    - JKCategories/Foundation/NSFileManager (= 1.8.1)
+    - JKCategories/Foundation/NSHTTPCookieStorage (= 1.8.1)
+    - JKCategories/Foundation/NSIndexPath (= 1.8.1)
+    - JKCategories/Foundation/NSInvocation (= 1.8.1)
+    - JKCategories/Foundation/NSNotificationCenter (= 1.8.1)
+    - JKCategories/Foundation/NSNumber (= 1.8.1)
+    - JKCategories/Foundation/NSObject (= 1.8.1)
+    - JKCategories/Foundation/NSRunLoop (= 1.8.1)
+    - JKCategories/Foundation/NSSet (= 1.8.1)
+    - JKCategories/Foundation/NSString (= 1.8.1)
+    - JKCategories/Foundation/NSTimer (= 1.8.1)
+    - JKCategories/Foundation/NSURL (= 1.8.1)
+    - JKCategories/Foundation/NSURLConnection (= 1.8.1)
+    - JKCategories/Foundation/NSURLRequest (= 1.8.1)
+    - JKCategories/Foundation/NSURLSession (= 1.8.1)
+    - JKCategories/Foundation/NSUserDefaults (= 1.8.1)
+  - JKCategories/Foundation/NSArray (1.8.1)
+  - JKCategories/Foundation/NSBundle (1.8.1)
+  - JKCategories/Foundation/NSData (1.8.1)
+  - JKCategories/Foundation/NSDate (1.8.1)
+  - JKCategories/Foundation/NSDateFormatter (1.8.1)
+  - JKCategories/Foundation/NSDictionary (1.8.1)
+  - JKCategories/Foundation/NSException (1.8.1)
+  - JKCategories/Foundation/NSFileHandle (1.8.1)
+  - JKCategories/Foundation/NSFileManager (1.8.1)
+  - JKCategories/Foundation/NSHTTPCookieStorage (1.8.1)
+  - JKCategories/Foundation/NSIndexPath (1.8.1)
+  - JKCategories/Foundation/NSInvocation (1.8.1)
+  - JKCategories/Foundation/NSNotificationCenter (1.8.1)
+  - JKCategories/Foundation/NSNumber (1.8.1)
+  - JKCategories/Foundation/NSObject (1.8.1)
+  - JKCategories/Foundation/NSRunLoop (1.8.1)
+  - JKCategories/Foundation/NSSet (1.8.1)
+  - JKCategories/Foundation/NSString (1.8.1):
+    - JKCategories/Foundation/NSData
+  - JKCategories/Foundation/NSTimer (1.8.1)
+  - JKCategories/Foundation/NSURL (1.8.1)
+  - JKCategories/Foundation/NSURLConnection (1.8.1)
+  - JKCategories/Foundation/NSURLRequest (1.8.1)
+  - JKCategories/Foundation/NSURLSession (1.8.1)
+  - JKCategories/Foundation/NSUserDefaults (1.8.1)
+  - JKCategories/MapKit (1.8.1):
+    - JKCategories/MapKit/MKMapView (= 1.8.1)
+  - JKCategories/MapKit/MKMapView (1.8.1)
+  - JKCategories/QuartzCore (1.8.1):
+    - JKCategories/QuartzCore/CAAnimation (= 1.8.1)
+    - JKCategories/QuartzCore/CALayer (= 1.8.1)
+    - JKCategories/QuartzCore/CAMediaTimingFunction (= 1.8.1)
+    - JKCategories/QuartzCore/CAShapeLayer (= 1.8.1)
+    - JKCategories/QuartzCore/CATransaction (= 1.8.1)
+  - JKCategories/QuartzCore/CAAnimation (1.8.1)
+  - JKCategories/QuartzCore/CALayer (1.8.1)
+  - JKCategories/QuartzCore/CAMediaTimingFunction (1.8.1)
+  - JKCategories/QuartzCore/CAShapeLayer (1.8.1)
+  - JKCategories/QuartzCore/CATransaction (1.8.1)
+  - JKCategories/UIKit (1.8.1):
+    - JKCategories/UIKit/UIAlertView (= 1.8.1)
+    - JKCategories/UIKit/UIApplication (= 1.8.1)
+    - JKCategories/UIKit/UIBarButtonItem (= 1.8.1)
+    - JKCategories/UIKit/UIBezierPath (= 1.8.1)
+    - JKCategories/UIKit/UIButton (= 1.8.1)
+    - JKCategories/UIKit/UIColor (= 1.8.1)
+    - JKCategories/UIKit/UIControl (= 1.8.1)
+    - JKCategories/UIKit/UIDevice (= 1.8.1)
+    - JKCategories/UIKit/UIFont (= 1.8.1)
+    - JKCategories/UIKit/UIImage (= 1.8.1)
+    - JKCategories/UIKit/UIImageView (= 1.8.1)
+    - JKCategories/UIKit/UILable (= 1.8.1)
+    - JKCategories/UIKit/UINavigationBar (= 1.8.1)
+    - JKCategories/UIKit/UINavigationController (= 1.8.1)
+    - JKCategories/UIKit/UINavigationItem (= 1.8.1)
+    - JKCategories/UIKit/UIPopoverController (= 1.8.1)
+    - JKCategories/UIKit/UIResponder (= 1.8.1)
+    - JKCategories/UIKit/UIScreen (= 1.8.1)
+    - JKCategories/UIKit/UIScrollView (= 1.8.1)
+    - JKCategories/UIKit/UISearchBar (= 1.8.1)
+    - JKCategories/UIKit/UISplitViewController (= 1.8.1)
+    - JKCategories/UIKit/UITableView (= 1.8.1)
+    - JKCategories/UIKit/UITableViewCell (= 1.8.1)
+    - JKCategories/UIKit/UITextField (= 1.8.1)
+    - JKCategories/UIKit/UITextView (= 1.8.1)
+    - JKCategories/UIKit/UIView (= 1.8.1)
+    - JKCategories/UIKit/UIViewController (= 1.8.1)
+    - JKCategories/UIKit/UIWebView (= 1.8.1)
+    - JKCategories/UIKit/UIWindow (= 1.8.1)
+  - JKCategories/UIKit/UIAlertView (1.8.1)
+  - JKCategories/UIKit/UIApplication (1.8.1)
+  - JKCategories/UIKit/UIBarButtonItem (1.8.1)
+  - JKCategories/UIKit/UIBezierPath (1.8.1)
+  - JKCategories/UIKit/UIButton (1.8.1)
+  - JKCategories/UIKit/UIColor (1.8.1)
+  - JKCategories/UIKit/UIControl (1.8.1)
+  - JKCategories/UIKit/UIDevice (1.8.1)
+  - JKCategories/UIKit/UIFont (1.8.1)
+  - JKCategories/UIKit/UIImage (1.8.1)
+  - JKCategories/UIKit/UIImageView (1.8.1)
+  - JKCategories/UIKit/UILable (1.8.1)
+  - JKCategories/UIKit/UINavigationBar (1.8.1)
+  - JKCategories/UIKit/UINavigationController (1.8.1)
+  - JKCategories/UIKit/UINavigationItem (1.8.1)
+  - JKCategories/UIKit/UIPopoverController (1.8.1)
+  - JKCategories/UIKit/UIResponder (1.8.1)
+  - JKCategories/UIKit/UIScreen (1.8.1)
+  - JKCategories/UIKit/UIScrollView (1.8.1)
+  - JKCategories/UIKit/UISearchBar (1.8.1)
+  - JKCategories/UIKit/UISplitViewController (1.8.1)
+  - JKCategories/UIKit/UITableView (1.8.1)
+  - JKCategories/UIKit/UITableViewCell (1.8.1)
+  - JKCategories/UIKit/UITextField (1.8.1)
+  - JKCategories/UIKit/UITextView (1.8.1)
+  - JKCategories/UIKit/UIView (1.8.1)
+  - JKCategories/UIKit/UIViewController (1.8.1)
+  - JKCategories/UIKit/UIWebView (1.8.1):
+    - JKCategories/UIKit/UIColor
+  - JKCategories/UIKit/UIWindow (1.8.1)
+  - JPush (3.2.4-noidfa):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - MJRefresh (3.2.0)
+  - mob_sharesdk (4.3.3):
+    - mob_sharesdk/ShareSDK (= 4.3.3)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.3.3):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.3.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.3.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.3.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.6)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.5.1)
+  - ReachabilitySwift (4.3.1)
+  - Result (4.1.0)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - SkeletonView (1.8.1)
+  - SnapKit (5.0.1)
+  - swift_qrcodejs (1.1.1)
+  - SwiftMessages (7.0.0):
+    - SwiftMessages/App (= 7.0.0)
+  - SwiftMessages/App (7.0.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyStoreKit (0.15.0)
+  - Then (2.5.0)
+  - Toast-Swift (5.0.0)
+  - TXIMSDK_iOS (4.5.15)
+  - TXLiteAVSDK_Professional (6.7.7734)
+
+DEPENDENCIES:
+  - Aspects
+  - AuroraIMUI
+  - CocoaLumberjack/Swift
+  - CollectionKit
+  - CryptoSwift (~> 1.0.0)
+  - DynamicColor (~> 4.1.0)
+  - EFQRCode (~> 5.0.0)
+  - ESTabBarController-swift
+  - Eureka
+  - FSCalendar
+  - GT3Captcha-iOS (~> 0.12.6)
+  - IQKeyboardManagerSwift
+  - JCore (= 2.1.4-noidfa)
+  - JKCategories
+  - JPush (= 3.2.4-noidfa)
+  - MJRefresh
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - mob_sharesdk/ShareSDKUI
+  - Moya (~> 13.0)
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - ReachabilitySwift
+  - SDCycleScrollView
+  - SDWebImage
+  - SkeletonView
+  - SnapKit (~> 5.0.1)
+  - SwiftMessages
+  - SwiftyJSON
+  - SwiftyStoreKit (~> 0.15.0)
+  - Then
+  - Toast-Swift (~> 5.0.0)
+  - TXIMSDK_iOS
+  - TXLiteAVSDK_Professional (from `http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Aspects
+    - AuroraIMUI
+    - CocoaLumberjack
+    - CollectionKit
+    - CryptoSwift
+    - DynamicColor
+    - EFQRCode
+    - ESTabBarController-swift
+    - Eureka
+    - FSCalendar
+    - GT3Captcha-iOS
+    - IQKeyboardManagerSwift
+    - JCore
+    - JKCategories
+    - JPush
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - Moya
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - ReachabilitySwift
+    - Result
+    - SDCycleScrollView
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - swift_qrcodejs
+    - SwiftMessages
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - Then
+    - Toast-Swift
+    - TXIMSDK_iOS
+
+EXTERNAL SOURCES:
+  TXLiteAVSDK_Professional:
+    :podspec: http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  AuroraIMUI: c8f2b1a6f6546748be01f5185218082f66f6207c
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  DynamicColor: e72fcf4174518c514e862bb4bdea794c1865b412
+  EFQRCode: 07437cfbce3a1e497397a4f3d766c980d8972608
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  GT3Captcha-iOS: d13c34bb0516e69ad88d05cc9e54cf91734cf8f7
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  JCore: 2f15311e6889ab43ed5d629802ef793cac566465
+  JKCategories: d5fecfa4f790685ea20daea319f74a8701d4c3ab
+  JPush: 2ff11d3013b360bc1b7da16741027e88f12fe3e6
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  mob_sharesdk: 48cb240a4b9cc393be2d6ff9c5b597ae77a1da73
+  MOBFoundation: 08c456357888e4c984fba23bbf04cfd2f4fc1e02
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SkeletonView: 9e4db6c1478bce9da695109dd0972bff7b6efe65
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  swift_qrcodejs: 0bacbfe321a99954c7b8e04c75562007ea4e4f7c
+  SwiftMessages: a952f7a9103d9aeab93730a2861d2d8fcdd8758f
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyStoreKit: 033d06b6f87955405d3f844a18a7687c2438592a
+  Then: 0157115e883545c77967b452fe74a1d25fb796e1
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  TXIMSDK_iOS: 7cf467dc7c90f294b894e8a7b7004bce7acfd332
+  TXLiteAVSDK_Professional: 4a88a5aafea9d61d0b90f230a50aedd97ec97387
+
+PODFILE CHECKSUM: e9e2fa48efa4be3c23314d3c9736f669e151daed
+
+COCOAPODS: 1.7.5
