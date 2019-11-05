@@ -37,6 +37,9 @@
 		4ACA91D623556610001D9CF5 /* errorcode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ACA91BD23556610001D9CF5 /* errorcode.plist */; };
 		4ACA91D823556610001D9CF5 /* HTTPHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA91C023556610001D9CF5 /* HTTPHeaderPlugin.swift */; };
 		4ACA91DA23556610001D9CF5 /* HTTPLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA91C323556610001D9CF5 /* HTTPLoggerPlugin.swift */; };
+		4AF038CD2371129D002B6C02 /* DBPaintPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038CC2371129D002B6C02 /* DBPaintPath.swift */; };
+		4AF038CF237113C1002B6C02 /* DBScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038CE237113C1002B6C02 /* DBScrollView.swift */; };
+		4AF038D123711436002B6C02 /* DBMyDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF038D023711436002B6C02 /* DBMyDrawer.swift */; };
 		A0E5095752CD74268FABD4BA /* Pods_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFFC268A09BF14F12CFF9EB /* Pods_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +91,9 @@
 		4ACA91C023556610001D9CF5 /* HTTPHeaderPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderPlugin.swift; sourceTree = "<group>"; };
 		4ACA91C323556610001D9CF5 /* HTTPLoggerPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPLoggerPlugin.swift; sourceTree = "<group>"; };
 		4AEB7D10236A6C61008624DA /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
+		4AF038CC2371129D002B6C02 /* DBPaintPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBPaintPath.swift; sourceTree = "<group>"; };
+		4AF038CE237113C1002B6C02 /* DBScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBScrollView.swift; sourceTree = "<group>"; };
+		4AF038D023711436002B6C02 /* DBMyDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMyDrawer.swift; sourceTree = "<group>"; };
 		4CFFC268A09BF14F12CFF9EB /* Pods_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E3FE3CBEC69F7E6AD4BF59 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -240,6 +246,7 @@
 		4ACA919E23556610001D9CF5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4AF038CB23711284002B6C02 /* Drawingboard */,
 				4A2D267723695A1A007D653D /* GT3Button */,
 				4A2D267423693A73007D653D /* VerificationCodeButton */,
 				4ACA919F23556610001D9CF5 /* Network */,
@@ -338,6 +345,16 @@
 				4ACA91C323556610001D9CF5 /* HTTPLoggerPlugin.swift */,
 			);
 			path = NetworkPlugin;
+			sourceTree = "<group>";
+		};
+		4AF038CB23711284002B6C02 /* Drawingboard */ = {
+			isa = PBXGroup;
+			children = (
+				4AF038CC2371129D002B6C02 /* DBPaintPath.swift */,
+				4AF038CE237113C1002B6C02 /* DBScrollView.swift */,
+				4AF038D023711436002B6C02 /* DBMyDrawer.swift */,
+			);
+			path = Drawingboard;
 			sourceTree = "<group>";
 		};
 		8B0A6EC02E4E2E9436457598 /* Pods */ = {
@@ -536,9 +553,12 @@
 				4ACA91D823556610001D9CF5 /* HTTPHeaderPlugin.swift in Sources */,
 				4ACA91D523556610001D9CF5 /* const.swift in Sources */,
 				4A169C032356CA1B0065B025 /* Moya+closure.swift in Sources */,
+				4AF038D123711436002B6C02 /* DBMyDrawer.swift in Sources */,
+				4AF038CF237113C1002B6C02 /* DBScrollView.swift in Sources */,
 				4A818B4A23599691004E3CE9 /* LiveDetailsController.swift in Sources */,
 				4ACA91DA23556610001D9CF5 /* HTTPLoggerPlugin.swift in Sources */,
 				4A169C042356CA1B0065B025 /* HTTPLoggerPlugin.swift in Sources */,
+				4AF038CD2371129D002B6C02 /* DBPaintPath.swift in Sources */,
 				4A2D267623693A73007D653D /* VerificationCodeButton.swift in Sources */,
 				4A66AE3B236921F10077D568 /* RegisterController.swift in Sources */,
 				4ACA91C723556610001D9CF5 /* BaseView.swift in Sources */,
